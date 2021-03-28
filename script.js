@@ -1,5 +1,5 @@
-myAge = 15
-guess = 0
+let myAge = 15
+let guess = 0
 
 while (guess != myAge) {
   guess = prompt('Guess my age between 1 and 20')
