@@ -1,7 +1,7 @@
-let myAge = 15
+const myAge = 15
 let guess = 0
 
-while (guess != myAge) {
+while (guess !== myAge) {
   guess = prompt('Guess my age between 1 and 20')
   if (myAge > guess) {
     alert('Guess a higher number!')
